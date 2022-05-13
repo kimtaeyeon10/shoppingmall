@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.flex{
+	display : flex;
+	justify-content: center;
+	align-items: center;
+	height : 100%;
+}
+.join_container { 
+	width:60%; height : 100%;
+	position: relative;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-left-width: 1px;
+}
+
+.form_in{
+	    width: 50%;
+	border: 1px ;
+	border-radius: 4px;
+	    padding: 6px 12px;
+	    font-size: 14px;
+	    height: 34px;
+	   color: #555;
+
+}

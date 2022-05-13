@@ -1,0 +1,25 @@
+@charset "UTF-8";
+*{box-sizing: border-box;}
+#wrap{width:100%;height:calc(100vh - 110px);font-family: "Noto Sans KR";}
+#wrap #main{height:100%;}
+#wrap #main .main_in{height:100%;}
+#wrap #main .main_in .slider{height:100%;}
+#wrap #main .main_in .slider .main_slider{height:100%;width:100%;}
+#wrap #main .main_in .slider .main_slider .swiper-slide{width:100%;height:100%;}
+
+.swiper-button-next{border:1px solid #fff;width:50px;height:50px;right:20px;}
+.swiper-button-next:after{color:#fff;font-size:30px;}
+.swiper-button-next:hover{background:#fff;}
+.swiper-button-next:hover:after{color:#000;}
+
+.swiper-button-prev{border:1px solid #fff;width:50px;height:50px;left:20px;}
+.swiper-button-prev:after{color:#fff;font-size:30px;}
+.swiper-button-prev:hover{background:#fff;}
+.swiper-button-prev:hover:after{color:#000;}
+
+.swiper-pagination{bottom:40px;}
+.swiper-pagination-bullet{background: #fff;width:12px;height:12px;}
+
+#wrap #main .main_in .slider .main_slider .swiper-slide.img1{background: url(../img/imgmain1.jpg)no-repeat 50% 50%;width: 100%;height:100%;background-size: cover;}
+#wrap #main .main_in .slider .main_slider .swiper-slide.img2{background: url(../img/imgmain2.jpg)no-repeat 50% 50%;width: 100%;height:100%;background-size: cover;}
+#wrap #main .main_in .slider .main_slider .swiper-slide.img3{background: url(../img/imgmain3.jpg)no-repeat 50% 50%;width: 100%;height:100%;background-size: cover;}
